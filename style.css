@@ -2,9 +2,115 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color:#E0E8FF;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.header{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;
 
-/* 
+    top: 265px;
+    left: 48px;
 
-font-family: 'Red Hat Display', sans-serif;
+}
+html{
+    box-sizing: border-box;
+}
 
-*/
+.card_conteiner{
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    overflow: hidden;
+    width: 450px;
+    height: 697px;
+
+}
+.music_section{
+    background-color: #F7F9FF;
+    height: 98px;
+    width: 354px;
+    margin: auto;
+    border-radius: 11px;
+    overflow: hidden;
+    left: 10.67%;
+    right: 10.67%;
+    top: 59.83%;
+    bottom: 26.11%;
+    display: flex;
+
+}
+.card_text{
+    color:#717FA6;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    height: 78px;
+
+    /* or 162% */
+    
+    text-align: center;
+}
+.music_icon{
+    justify-content: center;
+    align-items: center;
+}
+.price_text{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+
+}
+.price_number{
+    position: relative;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+.change{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #382AE1;
+}
+.paymant_button{
+    width: 354px;
+    height: 50px;
+    background: #382AE1;
+    border-radius: 11px;
+    
+}
+p{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #FFFFFF;
+}
