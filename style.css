@@ -114,3 +114,14 @@ p{
     line-height: 20px;
     background-color: #FFFFFF;
 }
+.cancle_button{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #717FA6;
+}
