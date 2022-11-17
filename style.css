@@ -22,7 +22,7 @@ body {
     overflow: hidden;
     width: 450px;
     height: 697px;
-    
+    text-align: center;
     
 }
 .header{
@@ -57,21 +57,25 @@ body {
     width: 354px;
     margin: 20px auto 0 auto;
     overflow: hidden;
-    display: flex;    
+    display: flex;
+    justify-content: space-between;
 }
+
 .music_icon{
-    margin-left: 24px;
-    align-self: center;   
+    margin: auto 0 auto 24px;
 }
+
 .price_text{
+    position: absolute;
+    margin: 25px 0 0 92px;
     color: #1F2E55;
     height: 21px;
     font-weight: 900;
     font-size: 16px;
     line-height: 21px;
-    margin-left: 20px;
-    margin-top: 25px;
+    
 }
+
 .price_number{
     height: 21px;
     color:#717FA6;
@@ -79,18 +83,52 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
-    margin-left: 92px;
-    margin-bottom: 25px;
-    align-self: flex-end;
     position: absolute;
-    
+    margin: 52px 0 0 92px;
+
 }
 .change{
-    color: #382AE1;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
     text-decoration-line: underline;
-    height: 19px;
+    align-self: center;
+    margin-right: 24px;
 }
+#change{
+    color:#382AE1;
+}
+.paymant_button{
+    border-radius: 11px;
+    background-color: #382AE1;
+    height: 50px;
+    width: 354px;
+    border: 0;
+    margin-top: 32px;
+}
+#button_text{
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+}
+#cancel{
+    color: #717FA6;
+}
+.cancle_button{
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
 
+    margin-top: 32px;
+}
+.paymant_button:hover{
+    background-color:#766CF1;
+}
+#cancel:hover{
+    color: #1F2E55;
+}
+#cancel:hover{
+    color:#766CF1;
+}
